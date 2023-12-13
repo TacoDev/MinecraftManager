@@ -1,0 +1,75 @@
+.single_world {
+    border: 1px solid rgb(235, 235, 235);
+    margin: 5px;
+    padding: 5px;
+    height: 110px;
+    min-width: 310px;
+    display: flex;
+    flex: 1;
+}
+
+.world_left_side {
+    width: calc(100% - 100px);
+}
+
+.world_right_side {
+    flex: 1;
+}
+
+.world_link {
+    margin-left: auto;
+    height: 100%;
+    display: block;
+}
+
+.world_image {
+    background-color: whitesmoke;
+    border: 1px solid rgb(77, 77, 77);
+    height: 100%;
+}
+
+.world_image_failed {
+    position: relative;
+    height: 85%;
+    top: 5%;
+    content: url("/public/map-outline-error.svg");
+}
+
+.world_header {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.world_properties {
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.world_properties>div {
+    flex-basis: 50%;
+}
+
+.property_label {
+    font-weight: 600;
+    font-size: small;
+}
+
+.property_value {
+    font-size: small;
+}
+
+.hardcore_label {
+    font-weight: bolder;
+    color: rgb(145, 21, 21);
+    text-shadow: -1px -1px 0 rgb(255 255 255), 1px -1px 0 rgb(255 255 255), -1px 1px 0 rgb(255 255 255), 1px 1px 0 rgb(255 255 255);
+    z-index: 100;
+}
+
+.select_world {
+    margin-top: 10px;
+}

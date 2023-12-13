@@ -1,0 +1,44 @@
+{
+    "minecraftWorldDirectory": "/home/minecraft-server/maps/",
+    "minecraftMapDirectory": "./webroot/maps/",
+    "blueMapConfigDirectory": "./blueMapConfig/",
+    "minecraftJarPath": "/home/minecraft-server/minecraft_server_current.jar",
+    "minecraftManifestUrl": "http://launchermeta.mojang.com/mc/game/version_manifest.json",
+    "blueMapJarPath": "../src/BlueMap/build/release/BlueMap-3.18-5-cli.jar",
+    "chromeExePath": "/usr/bin/chromium-browser",
+    "slot1": "superWild",
+    "slot2": "deepDarkHardcore",
+    "slot3": "speedRun",
+    "blueMapConfig": {
+        "name": "${worldName}",
+        "world": "/home/minecraft-server/maps/${worldName}/world",
+        "remove-caves-below-y": -10000,
+        "cave-detection-ocean-floor": -5,
+        "cave-detection-uses-block-light": false,
+        "render-edges": true,
+        "save-hires-layer": true,
+        "storage": "file",
+        "ignore-missing-light-data": false,
+        "min-inhabited-time": 0,
+        "marker-sets": {},
+        "overworld": {
+            "sky-color": "#7dabff",
+            "void-color": "#000000",
+            "ambient-light": 0.1,
+            "world-sky-light": 15
+        },
+        "nether": {
+            "sky-color": "#290000",
+            "void-color": "#150000",
+            "ambient-light": 0.6,
+            "world-sky-light": 0,
+            "max-y": 100
+        },
+        "end": {
+            "sky-color": "#080010",
+            "void-color": "#080010",
+            "ambient-light": 0.6,
+            "world-sky-light": 0
+        }
+    }
+}

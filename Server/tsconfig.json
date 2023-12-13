@@ -1,0 +1,23 @@
+
+{
+    "compileOnSave": true,
+    "include": [
+      "**/*",
+      "../web/src/Utils/DataModels.d.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "bin"
+    ],
+    "compilerOptions": {
+      "lib": [ "es6" ],
+      "rootDir": "./",
+      "outDir": "bin",
+      "strict": true,
+      "target": "ES2018",
+      "module": "commonjs",
+      "experimentalDecorators": true,
+      //"noUnusedParameters": true,
+      //"noUnusedLocals": true
+    }
+  }

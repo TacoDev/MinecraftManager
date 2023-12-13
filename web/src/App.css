@@ -1,0 +1,16 @@
+.slot_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.world_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    height: 100%;
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+}

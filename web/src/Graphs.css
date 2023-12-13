@@ -1,0 +1,10 @@
+.graph_list {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.graph_list>div {
+    flex: 1;
+    min-width: 400px;
+    width: 30%;
+}

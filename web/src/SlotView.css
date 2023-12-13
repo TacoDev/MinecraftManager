@@ -1,0 +1,91 @@
+.single_slot {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(235, 235, 235);
+    margin: 5px;
+    padding: 5px;
+    flex: 1;
+    height: 200px;
+    min-width: 500px;
+}
+
+.slot_content {
+    display: flex;
+    height: 165px;
+}
+
+.left_side {
+    width: calc(100% - 165px);
+}
+
+.right_side {
+    flex: 1;
+}
+
+.slot_header {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+}
+
+.slot_header_text {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    float: right;
+    flex: 1;
+}
+
+.action_button {
+    display: inline-block;
+    width: 30px;
+}
+
+.slot_image {
+    background-color: whitesmoke;
+    border: 1px solid rgb(77, 77, 77);
+    font-size: 12px;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slot_image_failed {
+    display: block;
+    position: relative;
+    height: 60%;
+    top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    content: url("/public/map-outline-error.svg");
+}
+
+.world_properties {
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.world_properties>div {
+    flex-basis: 50%;
+}
+
+.property_label {
+    font-weight: 600;
+    font-size: small;
+}
+
+.property_value {
+    font-size: small;
+}
+
+.hardcore_slot_label {
+    font-weight: bolder;
+    color: rgb(145, 21, 21);
+    text-shadow: -1px -1px 0 rgb(255 255 255), 1px -1px 0 rgb(255 255 255), -1px 1px 0 rgb(255 255 255), 1px 1px 0 rgb(255 255 255);
+}
+
+.select_world {
+    margin-top: 10px;
+}
